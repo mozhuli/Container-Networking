@@ -1,6 +1,6 @@
-# Container-Networking
-[Container Networking(From Docker to Kubernetes)](https://www.nginx.com/resources/library/container-networking-docker-kubernetes/) 中文版
+# Summary
 
+* [Introduction](README.md)
 * [前言](preface/preface.md)
 * [1. 本书的写作动机](motivation/motivation.md)
     * [1.1 “宠物模式” vs “牲畜模式"](motivation/pets-cattle.md)
@@ -30,7 +30,7 @@
     * [5.2 技术](service-discovery/technologies.md)
     * [5.3 负载均衡](service-discovery/load-balancing.md)
     * [5.4 本章小结](service-discovery/summary.md)
- * [6. CNI(容器网络接口)](cni/index.md)
+* [6. CNI(容器网络接口)](cni/index.md)
     * [6.1 历史](CNI/history.md)
     * [6.2 规范和使用](CNI/usage.md)
     * [6.3 容器运行时和插件](CNI/cni.md)
@@ -46,6 +46,3 @@
     * [7.8 本章小结](kubernetes/summary.md)
 * [参考文献](references/rreface.md)
 
-## 在线阅读
-
-可以通过[GitBook](https://mozhuli.gitbooks.io/Container-Networking)或者[Github](https://github.com/mozhuli/Container-Networking/blob/master/SUMMARY.md)来在线阅读。
