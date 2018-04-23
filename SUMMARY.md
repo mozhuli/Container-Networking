@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [前言](preface/preface.md)
-* [1. 本书的写作动机](motivation/motivation.md)
+* [1. 本书的写作动机](motivation/index.md)
     * [1.1 “宠物模式” vs “牲畜模式"](motivation/pets-cattle.md)
     * [1.2 Go Cattle！](motivation/go-cattle.md)
     * [1.3 容器网络技术栈](motivation/container-networking-stack.md)
