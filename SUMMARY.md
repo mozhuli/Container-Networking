@@ -30,7 +30,7 @@
     * [5.2 技术](service-discovery/technologies.md)
     * [5.3 负载均衡](service-discovery/load-balancing.md)
     * [5.4 本章小结](service-discovery/summary.md)
-* [6. CNI(容器网络接口)](cni/index.md)
+    * [6. CNI(容器网络接口)](cni/index.md)
     * [6.1 历史](CNI/history.md)
     * [6.2 规范和使用](CNI/usage.md)
     * [6.3 容器运行时和插件](CNI/cni.md)
@@ -45,4 +45,3 @@
     * [7.7 Kubernetes 中网络的高级主题](kubernetes/advanced-networking.md)
     * [7.8 本章小结](kubernetes/summary.md)
 * [参考文献](references/rreface.md)
-
