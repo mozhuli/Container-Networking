@@ -44,7 +44,7 @@
     * [7.6 Ingress与Egress](kubernetes/ingress-egress.md)
     * [7.7 Kubernetes 中网络的高级主题](kubernetes/advanced-networking.md)
     * [7.8 本章小结](kubernetes/summary.md)
-* [参考文献](references/rreface.md)
+* [附录](references/references.md)
 
 ## 在线阅读
 
