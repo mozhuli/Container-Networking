@@ -16,7 +16,13 @@ $ kubectl run -it --rm jump --restart=Never \
 If you don't see a command prompt, try pressing enter.
 / # env
 HOSTNAME=jump
-WEBSERVER_SERVICE_HOST=10.104.58.143 WEBSERVER_PORT=tcp://10.104.58.143:80 WEBSERVER_SERVICE_PORT=80 WEBSERVER_PORT_80_TCP_ADDR=10.104.58.143 WEBSERVER_PORT_80_TCP_PORT=80 WEBSERVER_PORT_80_TCP_PROTO=tcp WEBSERVER_PORT_80_TCP=tcp://10.104.58.143:80
+WEBSERVER_SERVICE_HOST=10.104.58.143
+WEBSERVER_PORT=tcp://10.104.58.143:80
+WEBSERVER_SERVICE_PORT=80
+WEBSERVER_PORT_80_TCP_ADDR=10.104.58.143
+WEBSERVER_PORT_80_TCP_PORT=80
+WEBSERVER_PORT_80_TCP_PROTO=tcp
+WEBSERVER_PORT_80_TCP=tcp://10.104.58.143:80
 ...
 ```
 
@@ -28,7 +34,7 @@ WEBSERVER_SERVICE_HOST=10.104.58.143 WEBSERVER_PORT=tcp://10.104.58.143:80 WEBSE
 
 &emsp;&emsp;将像example.com这样的完全合格的域名（[FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name)）映射到IP地址（如123.4.5.66）是DNS设计的目标。
 
-&emsp;&emsp;在自己开发Kubernetes发行版时，也就是将所有必需组件（如SDN或DNS等附加组件）自己组合起来，而不是使用来自[30多种认证了的Kubernetes产品](https://github.com/cncf/k8s-conformance)。值得考虑DNS解决方案有：CNCF的[CoreDNS]项目(https://coredns.io/plugins/kubernetes/)，功能较少的[kube-dns组件](https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns)。
+&emsp;&emsp;在自己开发Kubernetes发行版时，也就是将所有必需组件（如SDN或DNS等附加组件）自己组合起来，而不是使用来自[30多种认证了的Kubernetes产品](https://github.com/cncf/k8s-conformance/)。值得考虑DNS解决方案有：CNCF的项目[CoreDNS](https://coredns.io/plugins/kubernetes/)，以及功能相对较少的[kube-dns组件](https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/dns)。
 
 &emsp;&emsp;那么我们如何使用DNS在Kubernetes中进行服务发现呢？如果安装并启用了DNS组件，该DNS服务器在Kubernetes API上监视正在创建或删除的service，它为它观察的每个service创建一组DNS记录。
 

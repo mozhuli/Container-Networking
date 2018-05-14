@@ -46,8 +46,8 @@ Session Affinity:   None
 Events:             <none>
 
 $ kubectl get service -l run=webserver
-    NAME        TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
-    webserver   ClusterIP   10.104.58.143   <none>        80/TCP    1m
+NAME        TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
+webserver   ClusterIP   10.104.58.143   <none>        80/TCP    1m
 ```
 
 &emsp;&emsp;我们可以看到service已经拥有了一个集群内部的IP（10.104.58.143），EXTERNAL-IP列告诉你这个服务只能在集群内部使用，也就是说，没有来自群集外部的流量可以访问此service。
