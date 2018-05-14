@@ -16,6 +16,6 @@
 
 ***软件定义网络***
 
-&emsp;&emsp;*SDN实际上是一个营销术语。采用SDN，网络管理团队变得更加敏捷，并且可以对不断变化的业务需求做出更快的反应。 SDN是使用软件对网络进行配置，无论是通过API补充[网络功能虚拟化](https://en.wikipedia.org/wiki/Network_function_virtualization)还是通过软件构建网络。特别是如果您是开发人员或架构师，我建议您快速浏览思科对此主题的[精彩概述](https://www.cisco.com/web/solutions/trends/sdn/index.html)以及SDxCentral的文章“[什么是软件定义的网络（SDN）](https://bit.ly/2jvUkiO)？”*
+&emsp;&emsp;*SDN实际上是一个营销术语。采用SDN，网络管理团队变得更加敏捷，并且可以对不断变化的业务需求做出更快的反应。 SDN是使用软件对网络进行配置，无论是通过API补充[网络功能虚拟化](https://en.wikipedia.org/wiki/Network_function_virtualization)还是通过软件构建网络。特别是如果您是开发人员或架构师，我建议您快速浏览思科对此主题的[精彩概述](https://www.cisco.com/web/solutions/trends/sdn/index.html)以及SDxCentral的文章“[什么是软件定义的网络（SDN）](https://www.sdxcentral.com/sdn/definitions/what-the-definition-of-software-defined-networking-sdn/)？”*
 
 &emsp;&emsp;如果你在网络运维团队，那么你可能很乐意马上阅读下一章。 但是，如果您是架构师或开发人员，并且您的网络知识可能有点生疏，我建议在大概学习完[Linux网络管理员指南](http://www.tldp.org/LDP/nag2/nag2.pdf)之后进行下一步学习。
